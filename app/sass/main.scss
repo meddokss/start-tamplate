@@ -23,6 +23,10 @@
 	color: #666;
 	opacity: 1;
 }
+*{
+	box-sizing:border-box;
+	outline:none;
+}
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid{
@@ -62,6 +66,31 @@ body{
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
  transform: translate(0, 0);
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+li{
+	list-style-type:none
+}
+
+a{
+	text-decoration:none;
+}
+
+h1, h2, h3, h4, h5{
+	margin:0;
+}
+.ov-h{
+	overflow:hidden;
+}
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 
